@@ -15,7 +15,7 @@ data "aws_ami" "ubuntu" {
 }
 
 data "aws_ami" "centos" {
-owners      = ["4101866022187565"]
+owners      = ["41018660221875651"]
 most_recent = true
 
   filter {
