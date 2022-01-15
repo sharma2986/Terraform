@@ -11,7 +11,7 @@ data "aws_ami" "ubuntu" {
     values = ["hvm"]
   }
 
-  owners = ["099720109471788888888"] # Canonical
+  owners = ["099720109471787"] # Canonical
 }
 
 data "aws_ami" "centos" {
